@@ -1,0 +1,61 @@
+/* Estilos Básicos para o Corpo da Página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Cor de fundo suave para ver a margin do container */
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilização do Container Principal */
+.container-cartoes {
+    /* MARGIN: Espaço EXTERNO transparente, aqui o espaçamento entre a borda do container e o <body> */
+    margin: 30px auto; 
+    max-width: 900px;
+    padding: 20px;
+    background-color: #fff;
+    /* BORDER: A linha que circunda o padding e o content */
+    border: 5px dashed #00bfff; /* Borda azul-clara para o container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px; 
+    justify-content: center;
+}
+
+/* Estilo para o DIV que representa cada cartão (BLOCK-LEVEL) */
+.cartao {
+    /* MARGIN: Espaço EXTERNO, separando este DIV dos DIVs vizinhos */
+    margin: 10px;
+    
+    /* BORDER: Linha sólida vermelha ao redor do padding e do content */
+    border: 3px solid #ff4500; 
+
+    /* PADDING: Espaço INTERNO entre a BORDER e o CONTEÚDO */
+    padding: 20px; 
+    
+    /* CONTEÚDO (Área de texto): A cor de fundo aplica-se ao padding e ao content por padrão */
+    background-color: #ffe4e1; /* Cor de fundo suave (Content + Padding) */
+    
+    width: 250px; 
+    border-radius: 6px;
+}
+
+/* Estilo para o SPAN usado para destaque (INLINE-LEVEL) */
+.destaque-inline {
+    /* PADDING: O padding é adicionado, mas pode afetar a linha acima/abaixo em elementos inline */
+    padding: 2px 5px; 
+    /* BORDER: A borda é aplicada ao redor do texto */
+    border: 1px solid #8b0000;
+    color: #8b0000; 
+    font-weight: bold;
+    /* BACKGROUND: Ocupa apenas o espaço do conteúdo/padding */
+    background-color: #ffc0cb; 
+}
+
+/* Demais estilos mantidos (ícones, footer...) */
+/* ... */
