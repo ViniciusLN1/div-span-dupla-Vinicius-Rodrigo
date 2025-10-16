@@ -12,7 +12,10 @@ A diferença entre as LLMs não foi tão notável como esperávamos, mas há uma
 
 Segue abaixo os prints do projeto.
 
-![primeiro print](print1.png)
+![projeto](print1.png)
 
 Sincronia entre o git, github e o projeto.
-![segundo print](print2.png)
+![projeto](print2.png)
+
+Print do site em funcionamento com html e css
+![site](print3.png)
