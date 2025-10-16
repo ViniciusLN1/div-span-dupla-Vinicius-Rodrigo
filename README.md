@@ -1,4 +1,4 @@
-# Dupla Vinícius Lopes do Nascimento & Rodrigo de Almeida Machado Barbosa
+# Dupla: Vinícius Lopes do Nascimento & Rodrigo de Almeida Machado Barbosa
 
 
 A pessoa A foi feita pelo integrante Vinícius, o qual ajudou também no restante dos passos, com opniões e validações de código.
