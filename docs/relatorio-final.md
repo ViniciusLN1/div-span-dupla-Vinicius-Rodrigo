@@ -1,8 +1,16 @@
-As LLMs apresentaram bom desempenho montando os sites e consertando os bugs existentes, mas para que haja bom uso é necessario uma boa organização de arquivos e de grupo. 
+# Relatório Final - Dupla Vinícius Lopes do Nascimento & Rodrigo de Almeida Machado Barbosa
+
+# O que aprendemos:
+
+Aprendemos que as LLMs apresentaram bom desempenho montando os sites e consertando os bugs existentes, mas para que haja bom uso é necessário uma boa organização de arquivos e de grupo. 
 
 O git é uma boa ferramenta para se usar e organizar arquivos e versões do codigo, e foi usada de maneira ótima nesse trabalho.
 
-Segue abaixo prints do projeto.
+# Diferenças entre LLMs
+
+A diferença entre as LLMs não foi tão notável como esperávamos, mas há uma diferença na maneira de escrita e demonstração de pedidos feitos pelo usuário.
+
+Segue abaixo os prints do projeto.
 
 ![primeiro print](print1.png)
 
