@@ -5,30 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DIV vs SPAN</title>
     <link rel="stylesheet" href="styles.css">
-</head>
+    <link rel="stylesheet" href="erros.css"> </head>
 <body>
     <section class="container-cartoes">
-        <h1>DIV (Block) vs SPAN (Inline)</h1>
-
-        <div class="cartao">
+        <H1>DIV (Block) vs SPAN (Inline) <div class="cartao">
             <span class="icone-bloco">📦</span>
             <h2>Elemento Block-Level</h2>
-            <p>
+            <P>
                 Este é um parágrafo (<p>, que também é block-level) dentro do DIV. 
                 Usamos <span class="destaque-inline">SPAN para destacar esta parte do texto</span>, 
                 mantendo-a na mesma linha.
-            </p>
-        </div>
-
-        <div class="cartao">
+            </P>
+        </div class="cartao"> <div class="cartao">
             <span class="icone-inline">📝</span>
             <h2>Finalidade da DIV</h2>
             <p>
-                A <span class="bloco-div">DIV</span> é ideal para agrupar grandes seções de conteúdo 
+                A <span class="bloco-div">DIV é ideal para agrupar grandes seções de conteúdo 
                 e aplicar estilos de layout (como largura, margens e altura) 
                 a todo o bloco.
-            </p>
-        </div>
+            </p> </div>
 
         <div class="cartao">
             <span class="icone-uso">✍️</span>
@@ -42,7 +37,13 @@
     </section>
 
     <footer>
-        <p>Exemplo Mínimo de Estrutura Web.</p>
-    </footer>
-</body>
-</html>
+        <P>Exemplo Mínimo de Estrutura Web.</P>
+    </FOOTER> </BODY> </HTML> ```
+
+**Resumo dos Bugs Inseridos:**
+
+1.  **Linha 10:** Adicionada uma referência a um arquivo CSS provavelmente inexistente/desnecessário (`<link rel="stylesheet" href="erros.css">`).
+2.  **Linha 13:** A tag `<h1>` está em maiúsculas (`<H1>`). (Inconsistência de prática).
+3.  **Linha 21:** Atributo de classe na tag de fechamento do `div` (`</div class="cartao">`). (Erro de sintaxe).
+4.  **Linha 31:** A tag `<span>` com a classe `bloco-div` não foi fechada. (Erro de estrutura que pode quebrar estilos).
+5.  **Linhas 46-48:** Tags de fechamento `<footer>`, `<body>` e `<html>` estão em maiúsculas (`</FOOTER>`, `</BODY>`, `</HTML>`). (Inconsistência de prática).

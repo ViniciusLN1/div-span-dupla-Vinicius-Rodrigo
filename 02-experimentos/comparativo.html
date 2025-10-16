@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Comparativo DIV x SPAN</title>
+  <link rel="stylesheet" href="../01-base/styles.css" />
+  <style>
+    /* Estilos específicos para esta comparação lado a lado */
+
+    .comparativo-container {
+      display: flex;              /* Flexbox para colunas lado a lado */
+      gap: 40px;                  /* Espaço entre as colunas */
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 10px;
+      background-color: #f9f9f9;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+    }
+
+    .coluna {
+      flex: 1;
+      padding: 10px;
+    }
+
+    .coluna h2 {
+      text-align: center;
+      color: #007acc;
+      margin-bottom: 15px;
+    }
+
+    /* Estilos para os cartões DIV (block) empilhados */
+    .coluna .cartao {
+      margin-bottom: 15px;
+      border: 2px solid #ff6347; /* Tomate */
+      padding: 15px;
+      background-color: #ffe4e1;
+      border-radius: 6px;
+    }
+
+    /* Estilos para os spans inline na outra coluna */
+    .coluna .span-inline {
+      display: inline; /* inline padrão */
+      background-color: #add8e6;
+      border: 2px solid #1e90ff;
+      padding: 8px 12px;
+      margin-right: 10px;
+      border-radius: 6px;
+      font-weight: bold;
+      color: #1e90ff;
+    }
+
+    /* Legenda */
+    .legenda {
+      text-align: center;
+      font-style: italic;
+      color: #555;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Comparativo: DIV (Block) vs SPAN (Inline)</h1>
+
+    <section class="comparativo-container">
+      <div class="coluna">
+        <h2>3 DIVs empilhadas (Block-level)</h2>
+
+        <div class="cartao">DIV 1: ocupa toda a largura disponível e quebra linha.</div>
+        <div class="cartao">DIV 2: empilhada abaixo da anterior, com margens.</div>
+        <div class="cartao">DIV 3: aceita largura, altura, margens e padding.</div>
+      </div>
+
+      <div class="coluna">
+        <h2>4 SPANs em linha (Inline-level)</h2>
+
+        <span class="span-inline">SPAN 1</span>
+        <span class="span-inline">SPAN 2</span>
+        <span class="span-inline">SPAN 3</span>
+        <span class="span-inline">SPAN 4</span>
+      </div>
+    </section>
+
+    <p class="legenda">
+      À esquerda, DIVs ocupam bloco inteiro e empilham. À direita, SPANs ficam na mesma linha, ocupando só o espaço do conteúdo.
+    </p>
+  </main>
+</body>
+</html>

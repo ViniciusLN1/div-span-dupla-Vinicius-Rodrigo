@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Span com display inline-block</title>
+  <link rel="stylesheet" href="../01-base/styles.css" />
+  <style>
+    /* Estilos específicos para este experimento */
+
+    .span-inline-block {
+      display: inline-block;      /* Mantém na mesma linha, mas aceita largura/altura */
+      width: 200px;               /* Largura fixa */
+      height: 60px;               /* Altura fixa */
+      background-color: #add8e6;  /* Fundo azul claro */
+      border: 2px solid #00008b;  /* Borda azul escura */
+      margin: 5px 10px;           /* Espaço ao redor, horizontal e vertical */
+      padding: 10px;
+      text-align: center;
+      line-height: 60px;          /* Centraliza verticalmente o texto */
+      font-weight: bold;
+      color: #00008b;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Demonstrando display: inline-block</h1>
+
+    <p>
+      Elementos <code>&lt;span&gt;</code> normais são inline e não aceitam largura/altura. Veja três spans inline:
+      <span style="background:#f9d5d3; padding:3px; border:1px solid #d14c4c;">Inline 1</span>
+      <span style="background:#f9d5d3; padding:3px; border:1px solid #d14c4c;">Inline 2</span>
+      <span style="background:#f9d5d3; padding:3px; border:1px solid #d14c4c;">Inline 3</span>
+    </p>
+
+    <p>
+      Agora, veja três spans com <code>display: inline-block;</code> e tamanho fixo:
+    </p>
+
+    <span class="span-inline-block">Inline-Block 1</span>
+    <span class="span-inline-block">Inline-Block 2</span>
+    <span class="span-inline-block">Inline-Block 3</span>
+
+    <p>
+      O <code>inline-block</code> mantém os elementos na mesma linha, mas permite controlar largura, altura, padding e margin vertical, diferentemente do inline simples.
+    </p>
+  </main>
+</body>
+</html>

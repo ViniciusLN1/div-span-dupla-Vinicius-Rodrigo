@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Span com display block</title>
+    <link rel="stylesheet" href="../01-base/styles.css" />
+    <style>
+        /* Estilos específicos para este experimento */
+
+        /* Forçando o span a se comportar como bloco */
+        .span-block {
+            display: block;           /* Muda o span para comportamento de bloco */
+            width: 200px;             /* Define largura fixa */
+            height: 60px;             /* Define altura fixa */
+            background-color: #90ee90; /* Fundo verde claro para destacar */
+            border: 2px solid #006400; /* Borda verde escura para evidenciar */
+            margin: 10px auto;         /* Espaço em volta e centralização horizontal */
+            padding: 10px;
+            text-align: center;
+            line-height: 60px;         /* Centraliza verticalmente o texto */
+            font-weight: bold;
+            color: #004d00;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Transformando SPAN Inline em Block</h1>
+        <p>
+            Aqui o <code>&lt;span&gt;</code> normalmente é inline, como neste exemplo:
+            <span style="background:#f9d5d3; padding:3px; border:1px solid #d14c4c;">
+                Texto Inline
+            </span>
+            — que fica dentro da mesma linha.
+        </p>
+
+        <p>
+            Agora veja o mesmo <code>&lt;span&gt;</code> com <code>display: block;</code> e dimensões definidas:
+        </p>
+
+        <span class="span-block">Span como Block</span>
+
+        <p>
+            Quando um <code>span</code> vira bloco, ele:
+            <ul>
+                <li>Quebra a linha antes e depois.</li>
+                <li>Pode ter largura e altura definidas.</li>
+                <li>Ocupa toda a largura definida, como um <code>div</code>.</li>
+            </ul>
+        </p>
+    </main>
+</body>
+</html>
